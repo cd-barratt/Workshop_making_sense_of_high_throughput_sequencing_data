@@ -1,0 +1,41 @@
+Input parameter values:
+               datapath = /Users/chris/Desktop/Workshop_2/work/Lflavomaculatus/Inputs/EEMS/Lflav
+               mcmcpath = /Users/chris/Desktop/Workshop_2/work/Lflavomaculatus/Outputs/EEMS/Lflav_nDemes700-chain2
+               prevpath = 
+               gridpath = 
+               distance = euclidean
+                diploid = 1
+                 nIndiv = 59
+                 nSites = 8598
+                 nDemes = 700
+                   seed = 1571307841
+            numMCMCIter = 1000000
+            numBurnIter = 10000
+            numThinIter = 9999
+              negBiSize = 10
+              negBiProb = 0.670000
+             qVoronoiPr = 0.250000
+             mrateShape = 0.000500
+             qrateShape = 0.002000
+             sigmaShape = 0.001000
+             qrateScale = 0.500000
+             mrateScale = 2.000000
+             sigmaScale = 1.000000
+       mSeedsProposalS2 = 0.010000
+       qSeedsProposalS2 = 0.100000
+       mEffctProposalS2 = 0.100000
+       qEffctProposalS2 = 0.001000
+      mrateMuProposalS2 = 0.010000
+
+Acceptance proportions:
+	(42928/62399) = 69% for proposal type "qTileRate",		 with proposal variance "qEffctProposalS2"
+	(34869/62434) = 56% for proposal type "qTileMove",		 with proposal variance "qSeedsProposalS2"
+	(23863/62234) = 38% for proposal type "qBirthDeath"
+	(125464/188042) = 67% for proposal type "mTileRate",		 with proposal variance "mEffctProposalS2"
+	(24116/124690) = 19% for proposal type "mMeanRate",		 with proposal variance "mrateMuProposalS2"
+	(108342/187597) = 58% for proposal type "mTileMove",		 with proposal variance "mSeedsProposalS2"
+	(44102/187765) = 23% for proposal type "mBirthDeath"
+	(102513/124839) = 82% for proposal type "degrees of freedom"
+
+Final log prior: 89.03
+Final log llike: 5427.37
