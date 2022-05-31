@@ -1,0 +1,361 @@
+Job name: dadi_model
+1 slots have been dedicated to this job
+On following node(s)
+node023 1 eve@node023 <NULL>
+pe host file is /usr/local/uge/8.5.5-1/default/spool/node023/active_jobs/5763260.1/pe_hostfile
+/gpfs1/public/barratt/virtual_env_RADseq/lib/python2.7/site-packages/dadi-1.7.0-py2.7-linux-x86_64.egg/dadi/Spectrum_mod.py:1641: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+/gpfs1/public/barratt/virtual_env_RADseq/lib/python2.7/site-packages/dadi-1.7.0-py2.7-linux-x86_64.egg/dadi/Numerics.py:138: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+
+
+============================================================================
+Data for site frequency dadi.Spectrum
+============================================================================
+
+projection [36, 29, 15]
+sample sizes [36 29 15]
+Sum of SFS =  747.38 
+
+
+
+
+============================================================================
+Model split_symmig_all
+============================================================================
+	Beginning Optimizations for Round 1:
+		Round 1 Replicate 1 of 5:
+			Optimized parameters =  [0.32756555 3.70820097 2.25617948 0.17589376 0.84097841 0.38990569
+ 0.79262912 0.12990245 1.51163965 7.37451431]
+			Likelihood =  -1095.96
+			AIC =  2211.92
+			Theta =  61.79
+			Chi-Squared =  3677.97
+
+			Replicate time: 1:31:49.272832 (H:M:S)
+
+		Round 1 Replicate 2 of 5:
+			Optimized parameters =  [0.51024151 0.44824682 0.32318164 0.53368412 0.7795561  0.12687777
+ 3.02182771 0.55986664 6.02333866 0.17101562]
+			Likelihood =  -877.62
+			AIC =  1775.24
+			Theta =  121.0
+			Chi-Squared =  4033.31
+
+			Replicate time: 0:06:16.523755 (H:M:S)
+
+		Round 1 Replicate 3 of 5:
+			Optimized parameters =  [3.81818758 1.50805834 0.17030103 0.16509441 1.18440588 0.20185993
+ 5.03313805 0.14071643 1.54808546 0.25643622]
+			Likelihood =  -946.8
+			AIC =  1913.6
+			Theta =  55.78
+			Chi-Squared =  2741.56
+
+			Replicate time: 0:12:38.023618 (H:M:S)
+
+		Round 1 Replicate 4 of 5:
+			Optimized parameters =  [0.13328888 7.55429738 1.24153159 0.33131781 0.15846724 4.89345665
+ 0.64597994 0.47862644 3.84189793 5.80336743]
+			Likelihood =  -1076.09
+			AIC =  2172.18
+			Theta =  116.79
+			Chi-Squared =  12204.28
+
+			Replicate time: 5:22:54.674757 (H:M:S)
+
+		Round 1 Replicate 5 of 5:
+			Optimized parameters =  [0.6200955  0.22585211 0.83436964 0.22394871 0.62433377 3.00136323
+ 0.84416449 0.15113922 1.4590587  0.9272135 ]
+			Likelihood =  -871.31
+			AIC =  1762.62
+			Theta =  101.34
+			Chi-Squared =  153029.38
+
+			Replicate time: 0:33:12.993125 (H:M:S)
+
+	Best so far: Round_1_Replicate_5, ll = -871.31
+
+
+	Beginning Optimizations for Round 2:
+		Round 2 Replicate 1 of 7:
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+			Optimized parameters =  [0.63151997 0.10873484 0.5168302  0.80271009 1.87692865 3.64749557
+ 1.72172986 0.06337136 0.45526445 0.34014999]
+			Likelihood =  -830.6
+			AIC =  1681.2
+			Theta =  123.82
+			Chi-Squared =  283811.15
+
+			Replicate time: 0:19:49.151677 (H:M:S)
+
+		Round 2 Replicate 2 of 7:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 31. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 46. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 32. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 30. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 27. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 25. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+			Optimized parameters =  [0.44603536 0.07079988 0.91995585 0.14698762 0.3450211  7.47401155
+ 0.36098869 0.03884233 3.26355229 2.74470501]
+			Likelihood =  -1237.5
+			AIC =  2495.0
+			Theta =  94.1
+			Chi-Squared =  85328420.95
+
+			Replicate time: 4:13:41.880680 (H:M:S)
+
+		Round 2 Replicate 3 of 7:
+			Optimized parameters =  [0.33267533 0.23781904 2.85406234 0.12516001 1.51880246 1.44756009
+ 1.74363388 0.17142737 2.48899993 0.78466813]
+			Likelihood =  -929.87
+			AIC =  1879.74
+			Theta =  103.93
+			Chi-Squared =  5420.52
+
+			Replicate time: 0:26:05.046217 (H:M:S)
+
+		Round 2 Replicate 4 of 7:
+			Optimized parameters =  [0.53943367 0.09597725 1.22581384 0.28331628 0.20339792 1.94221259
+ 0.59067967 0.10103603 3.35902111 3.62749785]
+			Likelihood =  -929.18
+			AIC =  1878.36
+			Theta =  72.48
+			Chi-Squared =  9879.6
+
+			Replicate time: 1:33:41.635533 (H:M:S)
+
+		Round 2 Replicate 5 of 7:
+			Optimized parameters =  [0.20406287 0.08922054 2.03191141 0.07830997 2.27604897 1.33123374
+ 0.22789142 0.0500454  1.29996486 1.49574023]
+			Likelihood =  -1178.53
+			AIC =  2377.06
+			Theta =  104.96
+			Chi-Squared =  10694.1
+
+			Replicate time: 0:47:53.236490 (H:M:S)
+
+		Round 2 Replicate 6 of 7:
+			Optimized parameters =  [0.57518714 0.84080103 1.42748852 0.14498859 0.17524095 3.09044578
+ 0.47743418 0.17750797 0.56329245 0.35548551]
+			Likelihood =  -958.59
+			AIC =  1937.18
+			Theta =  98.02
+			Chi-Squared =  462445.73
+
+			Replicate time: 0:14:23.466094 (H:M:S)
+
+		Round 2 Replicate 7 of 7:
+			Optimized parameters =  [0.19819959 0.21291554 0.60806315 0.07678507 1.57270284 6.52230258
+ 0.34590584 0.17254765 0.37999572 2.11762092]
+			Likelihood =  -1175.73
+			AIC =  2371.46
+			Theta =  153.7
+			Chi-Squared =  95346.46
+
+			Replicate time: 2:17:45.817295 (H:M:S)
+
+	Best so far: Round_2_Replicate_1, ll = -830.6
+
+
+	Beginning Optimizations for Round 3:
+		Round 3 Replicate 1 of 10:
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+			Optimized parameters =  [0.45043919 0.07578337 0.37498501 0.56604649 1.97300627 2.50369998
+ 0.98193147 0.08261133 0.74293264 0.43046444]
+			Likelihood =  -720.42
+			AIC =  1460.84
+			Theta =  151.47
+			Chi-Squared =  3161.87
+
+			Replicate time: 0:16:41.398437 (H:M:S)
+
+		Round 3 Replicate 2 of 10:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 6. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 6. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 13. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 9. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 7. Sum of data in those entries is 1.15444:
+1.1544444968375644 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 6. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 5. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 6. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 5. Sum of data in those entries is 1.15439:
+1.154394093611758 747.3846351342303
+WARNING:Inference:Model is masked in some entries where data is not.
+WARNING:Inference:Number of affected entries is 5. Sum of data in those entries is 1.15439:
+			Optimized parameters =  [1.14858745 0.06183983 0.62839596 0.55046279 1.57489926 6.11627994
+ 1.02601479 0.08535988 0.84300607 0.41112026]
+1.154394093611758 747.3846351342303
+			Likelihood =  -958.03
+			AIC =  1936.06
+			Theta =  105.4
+			Chi-Squared =  535858281.22
+
+			Replicate time: 0:31:20.562076 (H:M:S)
+
+		Round 3 Replicate 3 of 10:
+			Optimized parameters =  [1.18839485 0.16489301 0.67539156 0.72793988 1.66467451 3.42694349
+ 3.40860802 0.0543489  0.25898883 0.23786984]
+			Likelihood =  -926.53
+			AIC =  1873.06
+			Theta =  103.32
+			Chi-Squared =  6854513.1
+
+			Replicate time: 0:17:40.571247 (H:M:S)
+
+		Round 3 Replicate 4 of 10:
+			Optimized parameters =  [0.64193463 0.08414289 0.51751858 0.6174348  2.43148348 2.89357831
+ 2.53565729 0.05065544 0.77028282 0.17702818]
+			Likelihood =  -770.85
+			AIC =  1561.7
+			Theta =  150.66
+			Chi-Squared =  40570.34
+
+			Replicate time: 0:10:49.879362 (H:M:S)
+
+		Round 3 Replicate 5 of 10:
+			Optimized parameters =  [0.53558457 0.05442058 0.36154171 0.9026927  1.71294588 4.33321545
+ 1.020219   0.07966723 0.25846793 0.38967315]
+			Likelihood =  -828.91
+			AIC =  1677.82
+			Theta =  135.53
+			Chi-Squared =  214517.81
+
+			Replicate time: 0:23:49.941549 (H:M:S)
+
+		Round 3 Replicate 6 of 10:
+			Optimized parameters =  [0.4568647  0.16823578 0.40198122 0.46970517 1.03306234 5.20596428
+ 1.33947359 0.03269812 0.88879058 0.40685359]
+			Likelihood =  -862.75
+			AIC =  1745.5
+			Theta =  140.55
+			Chi-Squared =  354842.64
+
+			Replicate time: 0:30:37.645137 (H:M:S)
+
+		Round 3 Replicate 7 of 10:
+			Optimized parameters =  [0.49159033 0.18327276 0.89632781 1.25000302 2.24873312 3.77722754
+ 1.83001209 0.04804382 0.28542846 0.28520689]
+			Likelihood =  -933.26
+			AIC =  1886.52
+			Theta =  113.54
+			Chi-Squared =  541008.7
+
+			Replicate time: 0:18:00.412451 (H:M:S)
+
+		Round 3 Replicate 8 of 10:
+			Optimized parameters =  [1.26604356 0.0544354  0.54019692 0.46500867 3.1265945  3.54177142
+ 2.10871006 0.0317048  0.50406638 0.60465669]
+			Likelihood =  -838.44
+			AIC =  1696.88
+			Theta =  103.33
+			Chi-Squared =  14854793.85
+
+			Replicate time: 0:37:19.895122 (H:M:S)
+
+		Round 3 Replicate 9 of 10:
+			Optimized parameters =  [0.75870016 0.1439888  0.6184304  0.7450871  0.99554233 2.23593088
+ 3.32524536 0.10523101 0.24459075 0.42112065]
+			Likelihood =  -831.16
+			AIC =  1682.32
+			Theta =  106.59
+			Chi-Squared =  71539.78
+
+			Replicate time: 0:24:24.732827 (H:M:S)
+
+		Round 3 Replicate 10 of 10:
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+WARNING:Numerics:Extrapolation may have failed. Check resulting frequency spectrum for unexpected results.
+			Optimized parameters =  [0.56005791 0.05998053 0.67876755 0.41318706 3.34014153 5.18255316
+ 1.37427976 0.03665131 0.32699072 0.3742869 ]
+			Likelihood =  -872.2
+			AIC =  1764.4
+			Theta =  135.33
+			Chi-Squared =  6051225.17
+
+			Replicate time: 0:27:12.368205 (H:M:S)
+
+	Best so far: Round_3_Replicate_1, ll = -720.42
+
+
+
+split_symmig_all Analysis Time for Model: 21:38:09.131365 (H:M:S)
+
+============================================================================

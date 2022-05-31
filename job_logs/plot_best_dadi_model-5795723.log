@@ -1,0 +1,13 @@
+Job name: plot_best_dadi_model
+1 slots have been dedicated to this job
+On following node(s)
+node038 1 eve@node038 <NULL>
+pe host file is /usr/local/uge/8.5.5-1/default/spool/node038/active_jobs/5795723.1/pe_hostfile
+Traceback (most recent call last):
+  File "/public/barratt/work/Lflavomaculatus/Inputs/dadi/Make_Plots.py", line 1, in <module>
+    import matplotlib
+  File "/gpfs1/public/barratt/virtual_env_RAD_seq/lib/python2.7/site-packages/matplotlib/__init__.py", line 111, in <module>
+    import io
+  File "/software/easybuild-broadwell/software/MPI/GCC/7.3.0-2.30/OpenMPI/3.1.1/Python/2.7.15/lib/python2.7/io.py", line 51, in <module>
+    import _io
+ImportError: /gpfs1/public/barratt/virtual_env_RAD_seq/lib64/python2.7/lib-dynload/_io.so: undefined symbol: _PyErr_ReplaceException
