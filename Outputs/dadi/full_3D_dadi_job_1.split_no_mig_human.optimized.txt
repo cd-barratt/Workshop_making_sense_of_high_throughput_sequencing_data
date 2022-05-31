@@ -1,0 +1,2 @@
+Model	Replicate	log-likelihood	AIC	chi-squared	theta	optimized_params(nu1a, nuA, nu2a, nu3a, nu1b, nu2b, nu3b, T1, T2, T3)
+split_no_mig_human	Round_1_Replicate_1	-2713.42	5446.84	1934296653.26	110.52	0.3183,3.6969,0.5764,4.4329,0.1589,0.1753,0.6555,0.2346,0.6927,0.9

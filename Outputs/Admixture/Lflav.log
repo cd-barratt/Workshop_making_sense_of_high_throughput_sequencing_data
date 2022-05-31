@@ -1,0 +1,39 @@
+PLINK v1.90b4 64-bit (20 Mar 2017)
+Options in effect:
+  --file /public/barratt/work/Lflavomaculatus/Inputs/Admixture/Lflav
+  --make-bed
+  --out /public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav
+  --recode
+
+Hostname: node042.eve
+Working directory: /gpfs1/public/barratt
+Start time: Fri Oct 25 11:59:44 2019
+
+Random number seed: 1571997584
+257845 MB RAM detected; reserving 128922 MB for main workspace.
+Allocated 1722 MB successfully, after larger attempt(s) failed.
+Scanning .ped file... done.
+Performing single-pass .bed write (8598 variants, 59 people).
+--file:
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav-temporary.bed +
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav-temporary.bim +
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav-temporary.fam
+written.
+8598 variants loaded from .bim file.
+59 people (0 males, 0 females, 59 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 59 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.744671.
+8598 variants and 59 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to /public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.bed
++ /public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.bim +
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.fam ... done.
+--recode ped to
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.ped +
+/public/barratt/work/Lflavomaculatus/Outputs/Admixture/Lflav.map ... done.
+
+End time: Fri Oct 25 11:59:44 2019
